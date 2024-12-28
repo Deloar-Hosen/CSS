@@ -1,0 +1,18 @@
+html,body
+{
+    background-color: rgb(225, 206, 206);
+    font-weight: bolder;
+    font-size: 30px;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+   grid-template-rows: repeat(2,1fr);
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

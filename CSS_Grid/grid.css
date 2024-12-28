@@ -1,0 +1,53 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container
+{                               
+    display:grid;
+    grid-template-columns:repeat(12,1fr); 
+    grid-template-rows:1fr 15fr 1fr;  
+
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header{
+    grid-column: 1 /-1;
+}
+.content{
+    grid-column: 2 /-1;
+}
+.footer{
+grid-column: 1/-1; 
+}
+
+.div1
+{
+    background-color: rgb(255, 255, 255);
+}
+.div2
+{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.div3
+{
+    background-color: rgb(30, 238, 210);
+}
+.div4
+{
+    background-color: rgb(255, 0, 195);
+}
+.div5
+{
+    background-color: rgb(36, 217, 49);
+}
+.div6
+{
+    background-color: rgb(255, 3, 12);
+}

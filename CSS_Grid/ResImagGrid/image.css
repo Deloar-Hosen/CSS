@@ -1,0 +1,16 @@
+html,body
+{
+    display: 100%;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.container img{
+    height: 100%;
+    width: 100%;
+}
+.horizontal{
+    grid-column: auto/span 2;
+}

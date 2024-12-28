@@ -1,0 +1,56 @@
+body
+{
+    background-color: rgba(67, 58, 59, 0.79);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container
+{                          
+    display:grid;
+    grid-template-columns:repeat(12,1fr); 
+    grid-template-rows:1fr 15fr 1fr;  
+  
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header{
+   column-span:1/ ;
+}
+.menu{
+    grid-area: m;
+}
+.content{
+  grid-area: c;
+}
+.footer{
+ grid-area: f;
+}
+
+.div1
+{
+    background-color: rgb(255, 255, 255);
+}
+.div2
+{
+    background-color: rgb(198, 98, 98);
+    color: aliceblue;
+}
+.div3
+{
+    background-color: rgb(30, 238, 210);
+}
+.div4
+{
+    background-color: rgb(255, 0, 195);
+}
+.div5
+{
+    background-color: rgb(36, 217, 49);
+}
+.div6
+{
+    background-color: rgb(255, 3, 12);
+}

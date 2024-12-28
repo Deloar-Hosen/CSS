@@ -1,0 +1,25 @@
+html,body
+{
+    background-color: rgb(225, 206, 206);
+    font-size: 20px;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: grid;
+   grid-template-columns: repeat(6,200px);
+   grid-template-rows: repeat(2,80px);
+   justify-content: center;
+   align-content: center;
+}
+.up{
+    align-self:end;
+}
+.down{
+    justify-self: center;
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
